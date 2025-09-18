@@ -1,0 +1,14 @@
+# Build artifacts
+*.o
+*.obj
+*.exe
+*.out
+*.dll
+*.so
+*.dylib
+build/
+bin/
+debug/
+release/
+# VS Code
+.vscode/
