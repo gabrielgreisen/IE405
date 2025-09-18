@@ -30,8 +30,8 @@ int main() {
             break;
         case '%': {
             // Assume both inputs are integers for modulus, as stated.
-            long long a = static_cast<long long>(v1);
-            long long b = static_cast<long long>(v2);
+            long a = static_cast<long>(v1);
+            long b = static_cast<long>(v2);
             if (b == 0) {
                 std::cerr << "Error: division by zero in modulus.\n";
                 return 1;
